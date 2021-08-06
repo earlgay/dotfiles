@@ -172,4 +172,4 @@ set updatetime=50
 
 au BufNewFile,BufRead *.ejs set filetype=html
 
-set mouse=a
+set mouse=
