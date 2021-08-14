@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt install net-tools curl nodejs vim -y
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/plugin/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo update-alternatives --config editor
 sudo visudo # Change to NOPASSWD: ALL
 cp ../vim/.vimrc ~/
